@@ -164,3 +164,35 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2022-09-07 02:37:34] local.ERROR: rename(A:\xampp\htdocs\bash-ui\bootstrap\cache\pacBB04.tmp,A:\xampp\htdocs\bash-ui\bootstrap\cache\packages.php): Access is denied. (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(A:\\xampp\\htdocs\\bash-ui\\bootstrap\\cache\\pacBB04.tmp,A:\\xampp\\htdocs\\bash-ui\\bootstrap\\cache\\packages.php): Access is denied. (code: 5) at A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:211)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(A:\\\\xampp...', 'A:\\\\xampp\\\\htdocs...', 211, Array)
+#1 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(211): rename('A:\\\\xampp\\\\htdocs...', 'A:\\\\xampp\\\\htdocs...')
+#2 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(181): Illuminate\\Filesystem\\Filesystem->replace('A:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#3 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(136): Illuminate\\Foundation\\PackageManifest->write(Array)
+#4 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(106): Illuminate\\Foundation\\PackageManifest->build()
+#5 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(89): Illuminate\\Foundation\\PackageManifest->getManifest()
+#6 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#7 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#8 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2022-09-07 02:58:33] local.ERROR: rename(A:\xampp\htdocs\bash-ui\bootstrap\cache\pacF551.tmp,A:\xampp\htdocs\bash-ui\bootstrap\cache\packages.php): Access is denied. (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(A:\\xampp\\htdocs\\bash-ui\\bootstrap\\cache\\pacF551.tmp,A:\\xampp\\htdocs\\bash-ui\\bootstrap\\cache\\packages.php): Access is denied. (code: 5) at A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:211)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(A:\\\\xampp...', 'A:\\\\xampp\\\\htdocs...', 211, Array)
+#1 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(211): rename('A:\\\\xampp\\\\htdocs...', 'A:\\\\xampp\\\\htdocs...')
+#2 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(181): Illuminate\\Filesystem\\Filesystem->replace('A:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#3 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(136): Illuminate\\Foundation\\PackageManifest->write(Array)
+#4 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(106): Illuminate\\Foundation\\PackageManifest->build()
+#5 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(89): Illuminate\\Foundation\\PackageManifest->getManifest()
+#6 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#7 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#8 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 A:\\xampp\\htdocs\\bash-ui\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 

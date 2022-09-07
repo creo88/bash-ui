@@ -135,7 +135,7 @@ class DashboardController extends Controller
                 if($settings['display_landing_page'] == 'on')
                 {
 
-                    return view('layouts.landing');
+                    return view('frontend.home.index');
                 }
                 else
                 {
