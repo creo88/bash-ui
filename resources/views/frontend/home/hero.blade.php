@@ -1,9 +1,9 @@
 <!-- background ornament -->
 <div class="hidden mx-auto hero-bg max-w-screen-2xl lg:block">
     <div class="flex justify-end">
-        <img src="{{ asset('assets/light-mode/header-ornament.svg') }}" alt="givMoney"
+        <img src="{{ asset('assets/light-mode/header-ornament.svg') }}" alt="UseBash - assets"
             class="absolute top-0 block ml-40 -mt-52 z-min10 dark:hidden" />
-        <img src="{{ asset('assets/dark-mode/header-ornament.svg') }}" alt="givMoney"
+        <img src="{{ asset('assets/dark-mode/header-ornament.svg') }}" alt="UseBash - assets"
             class="absolute top-0 hidden ml-40 -mt-52 z-min10 dark:block" />
     </div>
 </div>

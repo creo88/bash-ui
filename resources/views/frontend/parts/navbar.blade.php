@@ -4,8 +4,10 @@
         <div class="flex items-center justify-between">
             <!-- LOGO -->
             <div class="mr-0 lg:mr-10">
-                <img src="{{ asset('assets/logo/bash-logo-blue.svg') }}" alt="givmoney" class="block h-8 dark:hidden" />
-                <img src="{{ asset('assets/logo/bash-logo-white.svg') }}" alt="givmoney" class="hidden h-8 dark:block" />
+                <img src="{{ asset('assets/logo/bash-logo-blue.svg') }}" alt="UseBash - assets"
+                    class="block h-8 dark:hidden" />
+                <img src="{{ asset('assets/logo/bash-logo-white.svg') }}" alt="UseBash - assets"
+                    class="hidden h-8 dark:block" />
             </div>
             <!-- RESPONSIVE NAVBAR BUTTON TOGGLER -->
             <div>
@@ -23,11 +25,12 @@
             <div class="flex flex-col items-baseline justify-between mt-6 lg:flex-row lg:items-center lg:mt-0">
                 <div
                     class="flex flex-col w-full ml-0 font-normal lg:flex-row text-dark-1 dark:text-light-1 lg:ml-10 lg:w-max">
-                    <a href="#" class="nav-link-item">Features</a>
-                    <a href="#" class="nav-link-item">Pricing</a>
+                    <a href="#useBashFeatures" class="nav-link-item">Features</a>
+                    <a href="#useBashPricing" class="nav-link-item">Pricing</a>
                     <a href="https://www.notion.so/Bash-Resources-5c30245712474a75ad8e7a9a66cf11bf"
-                        class="nav-link-item">Resources</a>
-                    <a href="https://forms.gle/WtM9rjuTYodetwNP8" class="nav-link-item">Hire a Book Keeper</a>
+                        class="nav-link-item" target="_blank">Resources</a>
+                    <a href="https://forms.gle/WtM9rjuTYodetwNP8" class="nav-link-item" target="_blank">Hire a Book
+                        Keeper</a>
                 </div>
                 <div class="flex flex-col items-baseline justify-between w-full lg:w-max lg:flex-row lg:items-center">
                     <div
@@ -41,9 +44,9 @@
                             class="inline-flex justify-center w-full p-4 text-base font-bold rounded-lg lg:w-max text-subtleBlue-2 dark:text-navy-2 bg-light-1">
                             Sign Up
                             &nbsp;
-                            <img src="{{ asset('assets/icons/arrow-right-light.svg') }}" alt="givMoney"
+                            <img src="{{ asset('assets/icons/arrow-right-light.svg') }}" alt="UseBash - assets"
                                 class="block dark:hidden" />
-                            <img src="{{ asset('assets/icons/arrow-right-dark.svg') }}" alt="givMoney"
+                            <img src="{{ asset('assets/icons/arrow-right-dark.svg') }}" alt="UseBash - assets"
                                 class="hidden dark:block" />
                         </a>
                     </div>

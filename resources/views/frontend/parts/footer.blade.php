@@ -2,8 +2,10 @@
     <footer class="wrapper py-14">
         <div class="grid gap-16 lg:grid-cols-12">
             <div class="md:col-span-12 lg:col-span-6">
-                <img src="{{ asset('assets/logo/bash-logo-blue.svg') }}" alt="givmoney" class="block h-7 dark:hidden" />
-                <img src="{{ asset('assets/logo/bash-logo-white.svg') }}" alt="givmoney" class="hidden h-7 dark:block" />
+                <img src="{{ asset('assets/logo/bash-logo-blue.svg') }}" alt="UseBash - assets"
+                    class="block h-7 dark:hidden" />
+                <img src="{{ asset('assets/logo/bash-logo-white.svg') }}" alt="UseBash - assets"
+                    class="hidden h-7 dark:block" />
                 <!-- social media icons -->
                 <div class="flex flex-row items-center mt-14">
                     <a href="#">
