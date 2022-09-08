@@ -3,12 +3,12 @@
         <!-- Logo & Toggler Button here -->
         <div class="flex items-center justify-between">
             <!-- LOGO -->
-            <div class="mr-0 lg:mr-10">
+            <a href="{{ config('app.url') }}" class="mr-0 lg:mr-10">
                 <img src="{{ asset('assets/logo/bash-logo-blue.svg') }}" alt="UseBash - assets"
                     class="block h-8 dark:hidden" />
                 <img src="{{ asset('assets/logo/bash-logo-white.svg') }}" alt="UseBash - assets"
                     class="hidden h-8 dark:block" />
-            </div>
+            </a>
             <!-- RESPONSIVE NAVBAR BUTTON TOGGLER -->
             <div>
                 <button class="block p-1 outline-none lg:hidden mobile-menu-button" data-target="#navigation">

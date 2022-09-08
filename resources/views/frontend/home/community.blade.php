@@ -13,7 +13,8 @@
             class="text-5xl font-bold leading-tight text-left heading text-dark-1 dark:text-light-1 md:text-center md:text-6xl lg:leading-snug font-display">
             Join Our Community
         </div>
-        <div class="flex flex-col items-center justify-center mt-18 md:flex-row md:space-x-7 space-y-7 md:space-y-0">
+        <div
+            class="flex flex-col items-center justify-center mt-8 md:mt-18 md:flex-row md:space-x-7 space-y-7 md:space-y-0">
             <a href="https://www.facebook.com/groups/619286293041056/"
                 class="w-full px-8 py-4 text-xl font-bold text-center bg-subtleGreen rounded-xl text-light-1 md:w-auto"
                 target="_blank">

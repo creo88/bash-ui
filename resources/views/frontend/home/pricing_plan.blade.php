@@ -12,17 +12,17 @@
 <section class="relative z-10 plans py-28 bg-light-3 dark:bg-dark-6">
     <div class="wrapper" id="useBashPricing">
         <div
-            class="text-5xl font-bold leading-tight text-center heading text-dark-1 dark:text-light-1 md:text-6xl lg:leading-snug font-display">
+            class="text-4xl font-bold leading-snug headline font-display md:text-[60px] text-dark-1 dark:text-light-1 md:leading-tight text-center">
             Upgrade Your Accesibility <br class="hidden md:block"> with <span class="text-subtleBlue-1">Professional
                 Plan</span>
         </div>
-        <p class="text-base font-normal text-center text-dark-2 dark:text-subtleGrey-5 mt-9">
+        <p class="text-base font-normal text-center text-dark-2 dark:text-subtleGrey-5 mt-4 md:mt-7">
             Choose plan that suits your budget. Every plan has their own <br class="hidden md:block"> benefits so
             careful on your decision,
             its
             starts from here!
         </p>
-        <div class="grid grid-cols-1 mt-24 plan-items lg:grid-cols-3 w-full">
+        <div class="grid grid-cols-1 mt-10 md:mt-24 plan-items lg:grid-cols-3 w-full gap-8">
             <!-- CARD 1 -->
             <div>
                 <div class="px-8 py-10 mx-auto bg-light-1 dark:bg-dark-3 rounded-xl max-w-max flex flex-col">
