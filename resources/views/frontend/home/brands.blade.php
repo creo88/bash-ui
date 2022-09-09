@@ -1,5 +1,11 @@
 <!-- BRANDS -->
 <section class="py-24 mt-20 brands wrapper md:mt-28 bg-light-3 dark:bg-dark-6">
+    <div
+        class="mb-10 text-3xl font-bold leading-tight text-center heading text-dark-1 dark:text-light-1 md:text-5xl lg:leading-snug font-display">
+        You are in
+        {{-- <br class="hidden md:block"> --}}
+        <span class="text-subtleBlue-1">good company</span>
+    </div>
     <div class="grid items-center grid-cols-8 gap-14 lg:gap-28">
         <div class="flex justify-center col-span-4 md:col-span-2">
             <!-- light slack logo -->

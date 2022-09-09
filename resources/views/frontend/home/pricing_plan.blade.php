@@ -13,21 +13,21 @@
     <div class="wrapper" id="useBashPricing">
         <div
             class="text-4xl font-bold leading-snug headline font-display md:text-[60px] text-dark-1 dark:text-light-1 md:leading-tight text-center">
-            Upgrade Your Accesibility <br class="hidden md:block"> with <span class="text-subtleBlue-1">Professional
+            Upgrade Your Accesibility <br class="hidden md:block"> with <span class="text-subtleBlue-1">Business
                 Plan</span>
         </div>
-        <p class="text-base font-normal text-center text-dark-2 dark:text-subtleGrey-5 mt-4 md:mt-7">
+        <p class="mt-4 text-base font-normal text-center text-dark-2 dark:text-subtleGrey-5 md:mt-7">
             Choose plan that suits your budget. Every plan has their own <br class="hidden md:block"> benefits so
             careful on your decision,
             its
             starts from here!
         </p>
-        <div class="grid grid-cols-1 mt-10 md:mt-24 plan-items lg:grid-cols-3 w-full gap-8">
+        <div class="grid w-full grid-cols-1 gap-8 mt-10 md:mt-24 plan-items lg:grid-cols-3">
             <!-- CARD 1 -->
             <div>
-                <div class="px-8 py-10 mx-auto bg-light-1 dark:bg-dark-3 rounded-xl max-w-max flex flex-col">
+                <div class="flex flex-col px-8 py-10 mx-auto bg-light-1 dark:bg-dark-3 rounded-xl max-w-max">
                     <div class="text-center top">
-                        <div class="text-xl font-normal title text-dark-1 dark:text-light-1 flex flex-col">Free
+                        <div class="flex flex-col text-xl font-normal title text-dark-1 dark:text-light-1">Free
                             <span class="text-sm">
                                 60 days trial
                             </span>
@@ -59,19 +59,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block bottom mt-auto">
+                    <div class="block mt-auto bottom">
                         <a href="#"
-                            class="block py-2 text-base font-bold text-center rounded-full bg-light-3 dark:bg-deepGrey text-dark-2 dark:text-subtleGrey-5">Choose
-                            Free</a>
+                            class="block py-2 text-base font-bold text-center rounded-full bg-light-3 dark:bg-deepGrey text-dark-2 dark:text-subtleGrey-5">
+                            Get Started
+                        </a>
                     </div>
                 </div>
             </div>
 
             <!-- CARD 2 -->
             <div>
-                <div class="px-8 py-10 mx-auto bg-light-1 dark:bg-dark-3 rounded-xl max-w-max flex flex-col">
+                <div class="flex flex-col px-8 py-10 mx-auto bg-light-1 dark:bg-dark-3 rounded-xl max-w-max">
                     <div class="text-center top">
-                        <div class="text-xl font-normal title text-dark-1 dark:text-light-1 flex flex-col">Monthly
+                        <div class="flex flex-col text-xl font-normal title text-dark-1 dark:text-light-1">Monthly
                         </div>
                         <div class="mt-5 mb-2 font-semibold price text-dark-1 dark:text-light-1 text-px32">$10<span
                                 class="text-base font-normal">/month</span></div>
@@ -100,10 +101,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block bottom mt-auto">
+                    <div class="block mt-auto bottom">
                         <a href="#"
-                            class="block py-2 text-base font-bold text-center rounded-full bg-light-3 dark:bg-deepGrey text-dark-2 dark:text-subtleGrey-5">Choose
-                            Free</a>
+                            class="block py-2 text-base font-bold text-center rounded-full bg-light-3 dark:bg-deepGrey text-dark-2 dark:text-subtleGrey-5">
+                            Get Started
+                        </a>
                     </div>
                 </div>
             </div>
@@ -111,7 +113,7 @@
             <!-- CARD 3 -->
             <div>
                 <div
-                    class="px-8 py-10 mx-auto bg-gradient-to-bl from-subtleBlue-2 to-subtleBlue-3 rounded-xl max-w-max flex flex-col">
+                    class="flex flex-col px-8 py-10 mx-auto bg-gradient-to-bl from-subtleBlue-2 to-subtleBlue-3 rounded-xl max-w-max">
                     <div
                         class="absolute px-3 py-1 text-xs font-bold rounded-md badge bg-lemonYellow text-dark-2 -mt-13 ml-18">
                         Most Popular
@@ -147,10 +149,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block bottom mt-auto">
+                    <div class="block mt-auto bottom">
                         <a href="#"
-                            class="block py-2 text-base font-bold text-center rounded-full bg-subtleGreen text-light-1">Choose
-                            Professional</a>
+                            class="block py-2 text-base font-bold text-center rounded-full bg-subtleGreen text-light-1">
+                            Get Started
+                        </a>
                     </div>
                 </div>
             </div>

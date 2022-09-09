@@ -21,69 +21,69 @@
                 class="bg-gradient-to-bl from-subtleBlue-2 to-subtleBlue-3 p-[30px] rounded-[12px] grid grid-cols-2 gap-10">
                 <ul class="gap-5 flex flex-col">
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Ledger Summary
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Chart of Accounts
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Journal Entry
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Balance Sheet
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Trial Balance
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Team Access
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Bills & Invoices
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Cashflow Management
                     </li>
                 </ul>
                 <ul class="gap-5 flex flex-col">
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Financial Reports
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Customizable Invoices
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Financial Goals
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Transaction History
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Permissions Management
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Budget Planner
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Multiple Currencies
                     </li>
                     <li class="text-sm md:text-base text-white flex items-center gap-2">
-                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="">
+                        <img src="{{ asset('assets/icons/check-circle-light.svg') }}" alt="UseBash - assets">
                         Proposals
                     </li>
                 </ul>

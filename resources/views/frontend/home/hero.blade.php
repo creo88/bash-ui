@@ -1,16 +1,16 @@
 <!-- background ornament -->
-<div class="hidden mx-auto hero-bg max-w-screen-2xl lg:block">
+{{-- <div class="hidden mx-auto hero-bg max-w-screen-2xl lg:block">
     <div class="flex justify-end">
         <img src="{{ asset('assets/light-mode/header-ornament.svg') }}" alt="UseBash - assets"
             class="absolute top-0 block ml-40 -mt-52 z-min10 dark:hidden" />
         <img src="{{ asset('assets/dark-mode/header-ornament.svg') }}" alt="UseBash - assets"
             class="absolute top-0 hidden ml-40 -mt-52 z-min10 dark:block" />
     </div>
-</div>
+</div> --}}
 <!-- hero -->
-<section class="grid items-center grid-cols-1 gap-12 mt-24 wrapper hero md:grid-cols-6 lg:grid-cols-12 lg:gap-36">
+<section class="pt-24 wrapper hero">
     <!-- LEFT PART -->
-    <div class="col-span-1 md:col-span-6 lg:col-span-5">
+    <div class="max-w-[595px]">
         <div
             class="text-4xl font-bold leading-snug headline font-display md:text-[54px] text-dark-1 dark:text-light-1 md:leading-tight">
             Control <span class="text-subtleBlue-1">your income and expenses - effortlessly</span>
@@ -21,29 +21,40 @@
             manage products, automate taxation, and track your spending.
             {{-- Faster, easier and cheaper cross <br class="hidden lg:block"> border payment starts here --}}
         </div>
-        <div class="grid grid-cols-1 mt-20 md:grid-cols-12">
-            <div class="inline-flex items-center col-span-1 mb-3 md:col-span-6">
-                <img src="{{ asset('assets/icons/check-green.svg') }}" alt="" />
-                <p class="ml-4 font-normal text-dark-2 dark:text-subtleGrey-5">Licensed & Regulated</p>
+        <div class="grid items-start grid-cols-1 mt-20 md:grid-cols-2">
+            <div class="inline-flex items-center mb-3">
+                <img src="{{ asset('assets/icons/check-green.svg') }}" class="mt-1" alt="UseBash - assets" />
+                <p class="ml-2 font-normal text-dark-2 dark:text-subtleGrey-5">
+                    24/7 Access anytime anywhere
+                </p>
             </div>
-            <div class="inline-flex items-center col-span-1 mb-3 md:col-span-6">
-                <img src="{{ asset('assets/icons/check-green.svg') }}" alt="" />
-                <p class="ml-4 font-normal text-dark-2 dark:text-subtleGrey-5">Hassle-free</p>
+            <div class="inline-flex items-start mb-3">
+                <img src="{{ asset('assets/icons/check-green.svg') }}" class="mt-1" alt="UseBash - assets" />
+                <p class="ml-2 font-normal text-dark-2 dark:text-subtleGrey-5">
+                    Take your accounting data with you everywhere you go
+                </p>
             </div>
-            <div class="inline-flex items-center col-span-1 mb-3 md:col-span-6">
-                <img src="{{ asset('assets/icons/check-green.svg') }}" alt="" />
-                <p class="ml-4 font-normal text-dark-2 dark:text-subtleGrey-5">100% Transparent</p>
+            <div class="inline-flex items-center mb-3">
+                <img src="{{ asset('assets/icons/check-green.svg') }}" class="mt-1" alt="UseBash - assets" />
+                <p class="ml-2 font-normal text-dark-2 dark:text-subtleGrey-5">
+                    Support multiple currencies
+                </p>
             </div>
-            <div class="inline-flex items-center col-span-1 mb-3 md:col-span-6">
-                <img src="{{ asset('assets/icons/check-green.svg') }}" alt="" />
-                <p class="ml-4 font-normal text-dark-2 dark:text-subtleGrey-5">Across 180+ Countries</p>
+            <div class="inline-flex items-center mb-3">
+                <img src="{{ asset('assets/icons/check-green.svg') }}" class="mt-1" alt="UseBash - assets" />
+                <p class="ml-2 font-normal text-dark-2 dark:text-subtleGrey-5">Across 180+ Countries</p>
             </div>
         </div>
     </div>
 
     <!-- RIGHT PART -->
-    <div class="col-span-1 md:col-span-6 lg:col-span-5">
-        <div class="w-full form-placeholder p-13 bg-light-1 dark:bg-dark-3 rounded-xl shadow-formShadow md:w-465">
+    <div class="max-w-[595px] w-full absolute right-0 top-28 -z-10 hidden lg:block">
+        <img src="{{ asset('assets/images/front/front-illustration.webp') }}" class="object-cover w-full h-auto"
+            alt="">
+    </div>
+</section>
+
+{{-- <div class="w-full form-placeholder p-13 bg-light-1 dark:bg-dark-3 rounded-xl shadow-formShadow md:w-465">
             <label class="block mb-7">
                 <span class="font-normal text-dark-2 dark:text-subtleGrey-5">Email</span>
                 <input type="email"
@@ -86,6 +97,4 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </div> --}}

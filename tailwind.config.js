@@ -64,8 +64,8 @@ module.exports = {
                 formShadow: '-32px 48px 60px rgba(22, 23, 28, 0.04)'
             },
             backgroundImage: {
-                'dropdownArrowLight': "url('/public/assets/icons/dropdownArrowLight.svg')",
-                'dropdownArrowDark': "url('/public/assets/icons/dropdownArrowDark.svg')",
+                'dropdownArrowLight': "url('/../assets/icons/dropdownArrowLight.svg')",
+                'dropdownArrowDark': "url('/../assets/icons/dropdownArrowDark.svg')",
             },
             backgroundSize: {
                 '24px': '24px',

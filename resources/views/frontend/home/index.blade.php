@@ -1,7 +1,7 @@
 @extends('layouts.landing')
-@section('title')
+{{-- @section('title')
     Landing Page
-@endsection
+@endsection --}}
 
 @section('content')
     @include('frontend.home.hero')

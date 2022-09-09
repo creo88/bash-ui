@@ -20,8 +20,7 @@
     @endphp
 
     <title>
-        {{ Utility::getValByName('title_text') ? Utility::getValByName('title_text') : config('app.name', 'AccountGo SaaS') }}
-        @yield('page-title')</title>
+        Bash</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -37,7 +36,7 @@
     <meta name="author" content="UseBash.Tech" />
 
     <!-- Favicon icon -->
-    <link rel="icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('assets/logo/bash-logo-white.svg') }}" type="image/x-icon" />
 
     {{-- TailwindCss --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
