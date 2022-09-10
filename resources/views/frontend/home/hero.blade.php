@@ -40,7 +40,7 @@
 
     <!-- RIGHT PART -->
     <div class="max-w-[595px] w-full absolute right-0 top-28 -z-10 hidden lg:block">
-        <img src="{{ asset('assets/images/front/front-illustration.webp') }}" class="object-cover w-full h-auto"
+        <img src="{{ asset('assets/images/front/front-illustration.png') }}" class="object-cover w-full h-auto"
             alt="">
     </div>
 </section>
