@@ -6,7 +6,14 @@
         {{-- <br class="hidden md:block"> --}}
         <span class="text-subtleBlue-1">good company</span>
     </div>
-    <div class="grid items-center grid-cols-8 gap-14 lg:gap-28">
+    <div class="flex items-center lg:gap-28 gap-14 justify-center">
+        <img src="{{ asset('assets/svgs/lehrer-logo.svg') }}" class="dark:brightness-[200%]" alt="">
+        <img src="{{ asset('assets/svgs/leicorp-logo.svg') }}" class="brightness-[200%] dark:brightness-100"
+            alt="">
+        <img src="{{ asset('assets/svgs/kwiz-logo-orignal.svg') }}" alt="">
+        <img src="{{ asset('assets/svgs/LOTUSFOODS-logo.svg') }}" alt="">
+    </div>
+    {{-- <div class="grid items-center grid-cols-8 gap-14 lg:gap-28">
         <div class="flex justify-center col-span-4 md:col-span-2">
             <!-- light slack logo -->
             <svg viewBox="0 0 204 52" fill="none" class="block w-9/12 dark:hidden md:w-full"
@@ -116,5 +123,5 @@
             <img src="{{ asset('assets/dark-mode/airbnb-logo.svg') }}" alt="airbnb"
                 class="hidden w-9/12 dark:block md:w-full" />
         </div>
-    </div>
+    </div> --}}
 </section>

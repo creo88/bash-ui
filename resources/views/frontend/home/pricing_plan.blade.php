@@ -13,7 +13,7 @@
     <div class="wrapper" id="useBashPricing">
         <div
             class="text-4xl font-bold leading-snug headline font-display md:text-[60px] text-dark-1 dark:text-light-1 md:leading-tight text-center">
-            Upgrade Your Accesibility <br class="hidden md:block"> with <span class="text-subtleBlue-1">Business
+            Upgrade Your Accesibility <br class="hidden md:block"> With Our <span class="text-subtleBlue-1">Business
                 Plan</span>
         </div>
         <p class="mt-4 text-base font-normal text-center text-dark-2 dark:text-subtleGrey-5 md:mt-7">

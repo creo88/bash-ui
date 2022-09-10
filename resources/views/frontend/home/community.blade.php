@@ -16,8 +16,9 @@
         <div
             class="flex flex-col items-center justify-center mt-8 md:mt-18 md:flex-row md:space-x-7 space-y-7 md:space-y-0">
             <a href="https://www.facebook.com/groups/619286293041056/"
-                class="w-full px-8 py-4 text-xl font-bold text-center bg-subtleGreen rounded-xl text-light-1 md:w-auto"
+                class="w-full px-8 py-4 text-xl font-bold text-center bg-subtleGreen rounded-xl text-light-1 md:w-auto flex gap-3"
                 target="_blank">
+                <img src="{{ asset('assets/icons/bi_facebook.svg') }}" alt="">
                 Facebook Group
             </a>
             {{-- <a href="#"

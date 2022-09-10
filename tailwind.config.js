@@ -66,6 +66,7 @@ module.exports = {
             backgroundImage: {
                 'dropdownArrowLight': "url('/../assets/icons/dropdownArrowLight.svg')",
                 'dropdownArrowDark': "url('/../assets/icons/dropdownArrowDark.svg')",
+                'chevronDownNavy': "url('/../assets/svgs/chevronDown.svg')",
             },
             backgroundSize: {
                 '24px': '24px',

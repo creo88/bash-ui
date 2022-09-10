@@ -20,7 +20,9 @@
     @endphp
 
     <title>
-        Bash</title>
+        {{ Utility::getValByName('title_text') ? Utility::getValByName('title_text') : config('app.name', 'AccountGo SaaS') }}
+        @yield('page-title')
+    </title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -40,22 +42,34 @@
 
     {{-- TailwindCss --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+    @stack('styles')
 </head>
 
 <body
     class="mx-auto overflow-x-hidden bg-no-repeat bg-gradient-to-b dark:from-dark-6 dark:to-dark-6 from-light-2 to-light-1">
 
-    @include('frontend.parts.navbar')
+    @php
+        $enableNavbar = $enableNavbar ?? true;
+        $enableFooter = $enableFooter ?? true;
+    @endphp
+
+    @if ($enableNavbar)
+        @include('frontend.parts.navbar')
+    @endif
 
     @yield('content')
 
-    @include('frontend.parts.footer')
+    @if ($enableFooter)
+        @include('frontend.parts.footer')
+    @endif
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="{{ asset('js/navbar-toggler.js') }}"></script>
     <script src="https://code.tidio.co/ayzbnk1cw5grxaxfnjrnpaqv8jsvpa1h.js" async></script>
 
+    {{-- scroll to anchor --}}
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
@@ -66,6 +80,8 @@
             });
         });
     </script>
+
+    @stack('scripts')
 </body>
 
 </html>
