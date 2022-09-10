@@ -1,3 +1,29 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Red+Hat+Display:wght@400;500;600;700&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.wrapper {
+    @apply relative max-w-screen-xl px-4 mx-auto;
+}
+
+.nav-link-item {
+    @apply py-3 mx-2 cursor-pointer lg:font-semibold lg:mx-8;
+}
+
+body {
+    @apply font-body;
+}
+
+select:invalid {
+    @apply text-subtleGrey-2 dark:text-subtleGrey-4;
+}
+
+select:valid {
+    @apply text-dark-1 dark:text-light-1;
+}
+
+select:invalid option,
+select:valid option {
+    @apply my-3 font-medium text-dark-1 dark:text-light-1;
+}
