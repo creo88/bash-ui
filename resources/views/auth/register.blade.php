@@ -18,7 +18,7 @@
 @section('content')
     <div class="wrapper hero py-9 min-h-[100vh]">
         {{-- <!-- background ornament --> --}}
-        <div class="absolute -right-28 -top-[140px] -z-10 h-[100vh]">
+        <div class="absolute -right-28 -top-[140px] -z-10 md:h-[100vh]">
             <img src="{{ asset('assets/light-mode/header-ornament.svg') }}" alt="UseBash - assets"
                 class="block dark:hidden h-full" />
             <img src="{{ asset('assets/dark-mode/header-ornament.svg') }}" alt="UseBash - assets"
@@ -40,10 +40,10 @@
             </select>
         </div>
 
-        <form method="POST" action="{{ route('register') }}" class="flex justify-center pt-13" id="loginForm">
+        <form method="POST" action="{{ route('register') }}" class="flex justify-center mt-13" id="loginForm">
             @csrf
             <div
-                class="w-full form-placeholder p-13 bg-light-1 dark:bg-dark-3 rounded-xl shadow-formShadow md:min-w-465 md:w-max">
+                class="w-full form-placeholder p-7 md:p-13 bg-light-1 dark:bg-dark-3 rounded-xl shadow-formShadow md:min-w-465 md:w-max">
                 <div class="dark:text-subtleGrey-5 text-[28px] text-dark-1 font-bold mb-9">
                     {{ __('Register') }}
                 </div>
@@ -79,7 +79,7 @@
                         @enderror
                     </div>
 
-                    <div class="flex gap-3 justify-between items-center w-[465px]">
+                    <div class="grid md:grid-cols-2 gap-5 md:gap-3 md:justify-between items-center w-full max-w-[465px]">
                         {{-- Password --}}
                         <div class="flex flex-col gap-3">
                             <label class="block">

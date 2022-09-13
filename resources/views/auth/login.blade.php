@@ -24,7 +24,7 @@
     @endphp
     <div class="wrapper hero py-9 min-h-[100vh]">
         {{-- <!-- background ornament --> --}}
-        <div class="absolute -right-28 -top-[140px] -z-10 h-[100vh]">
+        <div class="absolute -right-28 -top-[140px] -z-10 md:h-[100vh]">
             <img src="{{ asset('assets/light-mode/header-ornament.svg') }}" alt="UseBash - assets"
                 class="block h-full dark:hidden" />
             <img src="{{ asset('assets/dark-mode/header-ornament.svg') }}" alt="UseBash - assets"
@@ -48,9 +48,9 @@
 
         {{ Form::open(['route' => 'login', 'method' => 'post', 'id' => 'loginForm']) }}
         @csrf
-        <div class="flex justify-center pt-13">
+        <div class="flex justify-center mt-13">
             <div
-                class="w-full form-placeholder p-13 bg-light-1 dark:bg-dark-3 rounded-xl shadow-formShadow md:min-w-465 md:w-max">
+                class="w-full form-placeholder p-7 md:p-13 bg-light-1 dark:bg-dark-3 rounded-xl shadow-formShadow md:min-w-465 md:w-max">
                 <div class="dark:text-subtleGrey-5 text-[28px] text-dark-1 font-bold mb-9">
                     {{ __('Sign In') }}
                 </div>
@@ -120,7 +120,7 @@
                             </a>
                         </div>
                     @endif
-                    <div class="flex justify-between gap-4">
+                    <div class="flex justify-between gap-4 flex-wrap">
                         <a href="{{ route('customer.login') }}"
                             class="w-full px-8 py-4 text-base font-normal text-center ring-inset ring-1 ring-subtleGrey-3 rounded-xl text-dark-1 dark:text-light-1 md:w-auto">
                             {{ __('Cusomter Login') }}
