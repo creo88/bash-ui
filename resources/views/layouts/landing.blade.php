@@ -38,7 +38,7 @@
     <meta name="author" content="UseBash.Tech" />
 
     <!-- Favicon icon -->
-    <link rel="icon" href="{{ asset('assets/logo/bash-logo-white.svg') }}" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('assets/logo/logo-white.svg') }}" type="image/x-icon" />
 
     {{-- TailwindCss --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">

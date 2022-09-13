@@ -27,10 +27,8 @@
         {{-- Top Content --}}
         <div class="flex justify-between items-center">
             <a href="{{ config('app.url') }}">
-                <img src="{{ asset('assets/logo/bash-logo-blue.svg') }}" alt="UseBash - assets"
-                    class="block h-8 dark:hidden" />
-                <img src="{{ asset('assets/logo/bash-logo-white.svg') }}" alt="UseBash - assets"
-                    class="hidden h-8 dark:block" />
+                <img src="{{ asset('assets/logo/logo-blue.svg') }}" alt="UseBash - assets" class="block h-8 dark:hidden" />
+                <img src="{{ asset('assets/logo/logo-white.svg') }}" alt="UseBash - assets" class="hidden h-8 dark:block" />
             </a>
             <select name="language" id="language"
                 class="font-bold !text-navy-2 text-center rounded-lg bg-white pl-4 px-8 py-[14px] appearance-none bg-chevronDownNavy bg-16px bg-[center_right_32px] bg-no-repeat w-[112px] cursor-pointer"

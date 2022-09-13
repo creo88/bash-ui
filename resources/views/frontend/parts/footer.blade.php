@@ -3,10 +3,9 @@
         <div class="grid gap-16 lg:grid-cols-12">
             <div class="md:col-span-12 lg:col-span-6">
                 <a href="{{ config('app.url') }}">
-                    <img src="{{ asset('assets/logo/bash-logo-blue.svg') }}" alt="UseBash - assets"
-                        class="block h-7 dark:hidden" />
-                    <img src="{{ asset('assets/logo/bash-logo-white.svg') }}" alt="UseBash - assets"
-                        class="hidden h-7 dark:block" />
+                    {{-- <img src="{{ asset('assets/logo/logo-blue.svg') }}" alt="UseBash - assets"
+                        class="block h-7 dark:hidden" /> --}}
+                    <img src="{{ asset('assets/logo/logo-white.svg') }}" alt="UseBash - assets" class="h-7" />
                 </a>
                 <!-- social media icons -->
                 <div class="flex flex-row items-center mt-14">
