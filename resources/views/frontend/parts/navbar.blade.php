@@ -34,7 +34,8 @@
                 <div class="flex flex-col items-baseline justify-between w-full lg:w-max lg:flex-row lg:items-center">
                     <div
                         class="w-full py-4 my-3 mr-0 text-center rounded-lg lg:my-0 bg-subtleBlue-1 lg:bg-transparent lg:text-left lg:mb-0 lg:w-max lg:mr-9 lg:py-0">
-                        <a href="{{ route('login') }}" class="font-bold text-light-1 lg:text-dark-1 dark:text-light-1">
+                        <a href="{{ route('login') }}"
+                            class="font-bold text-light-1 lg:text-dark-1 dark:lg:text-light-1">
                             Sign In
                         </a>
                     </div>
