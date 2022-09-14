@@ -7,7 +7,7 @@
     </div>
     <div class="flex flex-wrap items-center justify-center lg:gap-28 gap-14">
         <img src="{{ asset('assets/images/front/brands-lehrer-tech.png') }}" class="h-18" alt="">
-        <img src="{{ asset('assets/images/front/brands-lei.png') }}" class="h-18" alt="">
+        <img src="{{ asset('assets/images/front/brands-lei.png') }}" class="h-28" alt="">
         <img src="{{ asset('assets/images/front/brands-kwiz.png') }}" class="h-18" alt="">
         <img src="{{ asset('assets/images/front/brands-lotus.png') }}" class="h-18" alt="">
     </div>

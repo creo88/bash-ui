@@ -23,7 +23,7 @@
                     </a>
                 </div>
                 <p class="mt-5 text-base font-normal text-light-3">
-                    2021 &nbsp; All rights reserved.
+                    {{ date('Y') }} &nbsp; All rights reserved.
                 </p>
             </div>
 
