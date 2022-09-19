@@ -110,7 +110,7 @@
                         </a>
                         <a href="{{ route('vender.login') }}"
                             class="w-full px-8 py-4 text-base font-normal text-center ring-inset ring-1 ring-subtleGrey-3 rounded-xl text-dark-1 dark:text-light-1 md:w-auto">
-                            {{ __('Company Login') }}
+                            {{ __('Vender Login') }}
                         </a>
                     </div>
                 </div>

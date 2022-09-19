@@ -17,4 +17,4 @@ yarn-error.log
 /storage/installed
 /storage/framework/sessions/*
 /storage/framework/views/*
-/storage/logs/laravel.log
+/storage/logs/*.log

@@ -20,7 +20,7 @@
         $logo = asset(Storage::url('uploads/logo/'));
         $company_logo = Utility::getValByName('company_logo');
         $settings = Utility::settings();
-        
+
     @endphp
     <div class="wrapper hero py-9 min-h-[100vh]">
         {{-- <!-- background ornament --> --}}
@@ -120,14 +120,14 @@
                             </a>
                         </div>
                     @endif
-                    <div class="flex justify-between gap-4 flex-wrap">
+                    <div class="flex flex-wrap justify-between gap-4">
                         <a href="{{ route('customer.login') }}"
                             class="w-full px-8 py-4 text-base font-normal text-center ring-inset ring-1 ring-subtleGrey-3 rounded-xl text-dark-1 dark:text-light-1 md:w-auto">
-                            {{ __('Cusomter Login') }}
+                            {{ __('Customer Login') }}
                         </a>
                         <a href="{{ route('vender.login') }}"
                             class="w-full px-8 py-4 text-base font-normal text-center ring-inset ring-1 ring-subtleGrey-3 rounded-xl text-dark-1 dark:text-light-1 md:w-auto">
-                            {{ __('Company Login') }}
+                            {{ __('Vender Login') }}
                         </a>
                     </div>
                 </div>
