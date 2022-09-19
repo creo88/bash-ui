@@ -24,19 +24,17 @@
     @endphp
     <div class="wrapper hero py-9 min-h-[100vh]">
         {{-- <!-- background ornament --> --}}
-        <div class="absolute -right-28 -top-[140px] -z-10 h-[100vh]">
+        <div class="absolute -right-28 -top-[140px] -z-10 md:h-[100vh]">
             <img src="{{ asset('assets/light-mode/header-ornament.svg') }}" alt="UseBash - assets"
-                class="block dark:hidden h-full" />
+                class="block h-full dark:hidden" />
             <img src="{{ asset('assets/dark-mode/header-ornament.svg') }}" alt="UseBash - assets"
                 class="hidden h-full dark:block" />
         </div>
         {{-- Top Content --}}
-        <div class="flex justify-between items-center">
+        <div class="flex items-center justify-between">
             <a href="{{ config('app.url') }}">
-                <img src="{{ asset('assets/logo/bash-logo-blue.svg') }}" alt="UseBash - assets"
-                    class="block h-8 dark:hidden" />
-                <img src="{{ asset('assets/logo/bash-logo-white.svg') }}" alt="UseBash - assets"
-                    class="hidden h-8 dark:block" />
+                <img src="{{ asset('assets/logo/logo-blue.svg') }}" alt="UseBash - assets" class="block h-8 dark:hidden" />
+                <img src="{{ asset('assets/logo/logo-white.svg') }}" alt="UseBash - assets" class="hidden h-8 dark:block" />
             </a>
             <select name="language" id="language"
                 class="font-bold !text-navy-2 text-center rounded-lg bg-white pl-4 px-8 py-[14px] appearance-none bg-chevronDownNavy bg-16px bg-[center_right_32px] bg-no-repeat w-[112px] cursor-pointer"
@@ -50,9 +48,9 @@
 
         {{ Form::open(['route' => 'login', 'method' => 'post', 'id' => 'loginForm']) }}
         @csrf
-        <div class="flex justify-center pt-13">
+        <div class="flex justify-center mt-13">
             <div
-                class="w-full form-placeholder p-13 bg-light-1 dark:bg-dark-3 rounded-xl shadow-formShadow md:min-w-465 md:w-max">
+                class="w-full form-placeholder p-7 md:p-13 bg-light-1 dark:bg-dark-3 rounded-xl shadow-formShadow md:min-w-465 md:w-max">
                 <div class="dark:text-subtleGrey-5 text-[28px] text-dark-1 font-bold mb-9">
                     {{ __('Sign In') }}
                 </div>
@@ -67,7 +65,7 @@
                             placeholder="{{ __('Email@example.org') }}" name="email" value="{{ old('email') }}"
                             required autocomplete="email" autofocus />
                         @error('email')
-                            <span class="-mt-2 text-red-600 text-xs">
+                            <span class="-mt-2 text-xs text-red-600">
                                 *{{ $message }}
                             </span>
                         @enderror
@@ -84,13 +82,13 @@
                             placeholder="{{ __('Your Password') }}" id="password" type="password" name="password" required
                             autocomplete="current-password" />
                         @error('password')
-                            <span class="-mt-2 text-red-600 text-xs">
+                            <span class="-mt-2 text-xs text-red-600">
                                 *{{ $message }}
                             </span>
                         @enderror
                         @if (Route::has('password.request'))
                             <a href="{{ route('password.request') }}"
-                                class="-mt-2 text-dark-1 dark:text-subtleGrey-4 text-xs">
+                                class="-mt-2 text-xs text-dark-1 dark:text-subtleGrey-4">
                                 {{ __('Forgot password?') }}
                             </a>
                         @endif
@@ -98,7 +96,7 @@
 
                     {{-- Captcha --}}
                     @if (env('RECAPTCHA_MODULE') == 'yes')
-                        <div class="form-group mb-3">
+                        <div class="mb-3 form-group">
                             {!! NoCaptcha::display() !!}
                             @error('g-recaptcha-response')
                                 <span class="text-xs text-red-600" role="alert">
@@ -115,21 +113,21 @@
                     </button>
 
                     @if ($settings['enable_signup'] == 'on')
-                        <div class="text-center text-sm dark:text-subtleGrey-4 text-dark-1">
+                        <div class="text-sm text-center dark:text-subtleGrey-4 text-dark-1">
                             {{ __('Don\'t have an account?') }}
                             <a href="{{ route('register') }}" class="text-subtleBlue-1">
                                 {{ __('Register') }}
                             </a>
                         </div>
                     @endif
-                    <div class="flex justify-between gap-4">
+                    <div class="flex justify-between gap-4 flex-wrap">
                         <a href="{{ route('customer.login') }}"
                             class="w-full px-8 py-4 text-base font-normal text-center ring-inset ring-1 ring-subtleGrey-3 rounded-xl text-dark-1 dark:text-light-1 md:w-auto">
                             {{ __('Cusomter Login') }}
                         </a>
                         <a href="{{ route('vender.login') }}"
                             class="w-full px-8 py-4 text-base font-normal text-center ring-inset ring-1 ring-subtleGrey-3 rounded-xl text-dark-1 dark:text-light-1 md:w-auto">
-                            {{ __('Vendor Login') }}
+                            {{ __('Company Login') }}
                         </a>
                     </div>
                 </div>

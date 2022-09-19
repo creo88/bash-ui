@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="block mt-auto bottom">
-                        <a href="#"
+                        <a href="{{ route('register') }}"
                             class="block py-2 text-base font-bold text-center rounded-full bg-light-3 dark:bg-deepGrey text-dark-2 dark:text-subtleGrey-5">
                             Get Started
                         </a>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <div class="block mt-auto bottom">
-                        <a href="#"
+                        <a href="{{ route('register') }}"
                             class="block py-2 text-base font-bold text-center rounded-full bg-light-3 dark:bg-deepGrey text-dark-2 dark:text-subtleGrey-5">
                             Get Started
                         </a>
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                     <div class="block mt-auto bottom">
-                        <a href="#"
+                        <a href="{{ route('register') }}"
                             class="block py-2 text-base font-bold text-center rounded-full bg-subtleGreen text-light-1">
                             Get Started
                         </a>

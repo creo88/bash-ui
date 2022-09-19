@@ -2,12 +2,12 @@
 <section class="relative z-30 py-24 advantages bg-light-1 dark:bg-dark-5">
     <div class="wrapper">
         <div
-            class="text-5xl font-bold leading-tight text-center heading text-dark-1 dark:text-light-1 md:text-6xl lg:leading-snug font-display">
+            class="text-4xl font-bold leading-tight text-center heading text-dark-1 dark:text-light-1 md:text-6xl lg:leading-snug font-display">
             Powerful bookkeeping
             <br class="hidden md:block">
             <span class="text-subtleBlue-1">for small businesses, plus more!</span>
         </div>
-        <p class="text-lg font-normal leading-8 text-dark-2 dark:text-subtleGrey-5 md:text-xl md:leading-9 text-center">
+        <p class="text-lg font-normal leading-8 text-center text-dark-2 dark:text-subtleGrey-5 md:text-xl md:leading-9">
             Bash helps you simplify your book keeping and billing needs
         </p>
         <div class="grid gap-16 mt-16 advantage-value md:mt-32 md:grid-cols-3 lg:gap-36">
